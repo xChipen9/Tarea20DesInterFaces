@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Espacio Disco</title>
+  <link rel="stylesheet" type="text/css" href="../ejercicio2/style.css">
+</head>
+<body>
+  <h1>Calculadora de Espacio en Disco</h1>
+
+  <h2 style="text-align: center;">Calculos Profundidad Color</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Escenario</th>
+        <th>Profundidad de Color</th>
+        <th>Total de Px</th>
+        <th>Espacio en Disco</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Caso A</td>
+        <td>256 colores (8 bits/px)</td>
+        <td class="highlight">3600 px</td>
+        <td>3600 bytes (3.6 KB)</td>
+      </tr>
+      <tr>
+        <td>Caso B</td>
+        <td>16.777.216 colores (24 bits/px)</td>
+        <td class="highlight">3600 px</td>
+        <td>10,800 bytes (10.8 KB)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="text-align: center;">Calculos Resolucion</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Escenario</th>
+        <th>Resolucion</th>
+        <th>Dimensiones en Px</th>
+        <th>Espacio en Disco</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Caso A</td>
+        <td>72 ppp</td>
+        <td class="highlight">425 × 283 px</td>
+        <td>353.11 KB</td>
+      </tr>
+      <tr>
+        <td>Caso B</td>
+        <td>150 ppp</td>
+        <td class="highlight">1181 × 787 px</td>
+        <td>1.5 MB</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
